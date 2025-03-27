@@ -59,7 +59,17 @@ source .env
    python main.py
    ```
 
-Após digitar o comando, a ferramenta irá buscar as vagas no LinkedIn e, se for bem-sucedida, salvará os resultados no arquivo `jobs_results.csv`.
+Após digitar o comando, a ferramenta irá buscar as vagas no LinkedIn e, se for bem-sucedida, salvará os resultados no arquivo `jobs.csv`.
+
+## Via Docker
+
+Voçê pode executar o script via docker, basta criar o arquivo .env como citado no passo anterior e executar o container com:
+
+```shell
+docker compose up -d
+```
+
+Da mesma forma, um arquivo `jobs.csv` deve ser gerado na sua pasta.
 
 ## Notas
 

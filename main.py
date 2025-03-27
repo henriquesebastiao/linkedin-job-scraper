@@ -30,7 +30,7 @@ url = f'https://www.linkedin.com/jobs/search?keywords={search}&trk=public_jobs_j
 if location:
     url += f'&geoId={geo_ids[location]}'
 else:
-    url += f'&geoId={geo_ids['brasil']}'
+    url += f'&geoId={geo_ids[brasil]}'
 
 if remote:
     remote = format_combination(remote, remote_options)
@@ -51,7 +51,7 @@ class Job():
         }
 
 def save_to_file(jobs):
-    with open("jobs_results.csv", 'w', encoding='utf-8') as file:
+    with open("jobs.csv", 'w', encoding='utf-8') as file:
         for job in jobs:
             file.write(f"{job.title},{job.link}\n")
 

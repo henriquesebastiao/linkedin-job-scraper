@@ -1,0 +1,7 @@
+services:
+  linkedin-job-scraper:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
