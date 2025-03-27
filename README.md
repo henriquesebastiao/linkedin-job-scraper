@@ -2,7 +2,7 @@
 
 Uma ferramenta simples para buscar vagas de emprego no LinkedIn com base em palavras chave, modalidade de trabalho e localização (ou opção remota). O script faz scraping de vagas no LinkedIn e salva os resultados em um arquivo `.csv`.
 
-Um fork detes outro projeto: [https://github.com/Mean-Says/LinkedIn-Job-Scraper-CLI](https://github.com/Mean-Says/LinkedIn-Job-Scraper-CLI)
+Um fork deste outro projeto: [https://github.com/Mean-Says/LinkedIn-Job-Scraper-CLI](https://github.com/Mean-Says/LinkedIn-Job-Scraper-CLI)
 
 ## Requisitos
 
